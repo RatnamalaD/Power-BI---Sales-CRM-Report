@@ -1,8 +1,10 @@
-# About this Project
+# Sales CRM Report 
+## Overview
 As a BI Developer for Mavy Tech (a computer hardware company), I created an interactive Power BI dashboard for sales managers to track their teams' quarterly performance and provide actionable recommendations to improve performance and increase sales.
 
 ## The Dataset
-The dataset contained records exported from Mavy Tech's CRM from October 2016 to December 2017. It held details of opportunities with associated information such as product, account, and whether the sale was won or lost.
+The dataset contained records exported from Mavy Tech's CRM from October 2016 to December 2017. It held details of opportunities with associated information such as product, account, and whether the sale was won or lost. 
+- There are 6 tables: accounts (customer/account details); products (product details); sales_teams (team details, such as sales_agent and manager information); sales_pipeline (all sales/deals information); and two date tables: one for Engaged_date and one for deal close_date.
 
 ## Key Assumptions
 When creating a dashboard/report, I always work with business owners to make sure I truly understand the intended purpose and the questions they seek to answer. In this report, I made the following key assumptions:
@@ -20,6 +22,8 @@ When creating a dashboard/report, I always work with business owners to make sur
 - Managers may want to compare performance across teams or over time
 - Focus is on team-level dashboards rather than executive-level comparisons
 - Assumed "Current quarter" is Q4 2017, but the dashboard would update continuously in practice
+
+## Steps followed to create the dashboard:
 
 ## Dashboard:
 ### 1. Quarterly Performance Summary
