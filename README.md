@@ -3,7 +3,7 @@
 As a BI Developer for Mavy Tech (a computer hardware company), I created an interactive Power BI dashboard for sales managers to track their teams' quarterly performance and provide actionable recommendations to improve performance and increase sales.
 
 ## The Dataset
-The dataset contained records exported from Mavy Tech's CRM from October 2016 to December 2017. It held details of opportunities with associated information such as product, account, and whether the sale was won or lost. 
+The dataset contained records exported as .CSV files from Mavy Tech's CRM from October 2016 to December 2017. It held details of opportunities with associated information such as product, account, and whether the sale was won or lost. 
 - There are 6 tables: accounts (customer/account details); products (product details); sales_teams (team details, such as sales_agent and manager information); sales_pipeline (all sales/deals information); and two date tables: one for Engaged_date and one for deal close_date.
 
 ## Key Assumptions
@@ -24,6 +24,15 @@ When creating a dashboard/report, I always work with business owners to make sur
 - Assumed "Current quarter" is Q4 2017, but the dashboard would update continuously in practice
 
 ## Steps followed to create the dashboard:
+- Performed data cleaning in Power Query, such as handling duplicates and NULL values, and data type formatting
+- Created separate calendar tables for date
+- Identified fact and dimension tables and relationships between them to build a semantic model using the STAR schema
+- Performed EDA in Power BI, created DAX measures, and built KPIs and key metrics
+
+## Semantic Model: 
+
+![CRM_Sementic Model](https://github.com/user-attachments/assets/97a819d4-0ece-49df-add9-c8a0aa8a674b)
+
 
 ## Dashboard:
 ### 1. Quarterly Performance Summary
