@@ -39,21 +39,21 @@ When creating a dashboard/report, I always work with business owners to make sur
 
 This is the main page of the report, containing the most critical information for sales managers. Users select their name from the sales manager slicer and quarter from the Quarter slicer, and this populates all the KPIs for their team. The key KPIs are shown clearly at the top of the page, with figures for the previous quarter and the average figure across all sales teams for each metric provided below for additional context. This allows the sales manager to see their own figures and understand generally how they are doing compared to other teams and towards their own goals.
 
-![Summary](https://github.com/user-attachments/assets/8f0293cd-a6f3-44db-9446-5e29493b18b8)
- 
+![Summary](https://github.com/user-attachments/assets/70b31709-ecaa-433c-81a7-2a284894de9f)
+
 
 ### 2. Sales Agent and Product KPIs
 
 This page lets sales managers select the quarter and their name from the slicers and view KPIs like total sales, Win %, average weeks to close, and lost % for that quarter compared to other teams.
 
-![Product and Sales agent metrics](https://github.com/user-attachments/assets/f7b685f1-7177-4c7a-80ef-eb7818779de9)
- 
+![Product and Sales agent metrics](https://github.com/user-attachments/assets/b8132ad4-b99d-444d-9ee2-52e908b9a9b2)
+
 
 ### 3. Quarterly KPIs at Team Level
 
 This page allows sales managers to view their team's performance over the previous quarters to identify trends. Managers can select their name and quarter to get insights into different product sales and the performance of their sales agents.
 
-![Team Performance](https://github.com/user-attachments/assets/6e547e07-7a06-4d26-ae99-f42250f7db0f)
+![Team Performance](https://github.com/user-attachments/assets/83736977-4534-4f20-add6-037f3382cfbc)
 
 
  ## Insights and recommendations at the team level
